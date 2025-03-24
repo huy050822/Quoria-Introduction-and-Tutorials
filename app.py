@@ -1,25 +1,23 @@
 import streamlit as st
 
-# Configure the webpage
 st.set_page_config(page_title="Quoria Introduction and Tutorials", layout="centered")
 
 st.title("Quoria Introduction and Tutorials")
 st.write("Welcome to the introduction and tutorial page for Quoria.")
 
-# Product Description
 st.header("About Quoria")
-st.write("Quoria is an advanced chatbot designed to assist users with various tasks and provide intelligent responses.")
+st.write("QUORIA is an intelligent chatbot that helps users determine the value of a used motorcycle based on real-world data. Using a Linear Regression model and data sourced from Aiven Cloud, the bot can analyze key factors such as brand, model, year of manufacture, mileage, and condition to provide the most reasonable price estimate. Since this is a project developed by students, we would greatly appreciate any feedback if you have the opportunity to try it out!")
 st.image("https://via.placeholder.com/600x300", caption="Quoria Interface")
 
-# User Guide
 st.header("How to Use Quoria")
-st.write("1. Start a conversation with Quoria.\n2. Ask questions or request assistance.\n3. Follow the guidance provided by Quoria.")
+st.write("1. Start a conversation with Quoria.\n2. Enter Motorcycle Information: Users need to provide basic details about the used motorcycle, including: model, year of manufacture, kilometer, brand
 
-# Contact Information
+         \n3.Receive the Price Estimate.")
+
 st.header("Contact Us")
 st.write("If you have any questions or need support, please reach out to us via email or hotline.")
-st.write("Email: support@example.com")
-st.write("Hotline: 0123-456-789")
+st.write("Email: huy.tnq@gmail.com")
+st.write("Hotline: 0943001336")
 
 st.write("---")
 st.info("Thank you for your interest in Quoria!")
