@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Quoria Introduction and Tutorials", layout="centered")
+st.set_page_config(page_title="Quoria Introduction and Tutorials", page_icon="https://raw.githubusercontent.com/huy050822/Quoria-Chatbot/refs/heads/main/11zon_cropped.png", layout="centered")
 
 st.title("Quoria Introduction and Tutorials")
 st.write("Welcome to the introduction and tutorial page for Quoria.")
