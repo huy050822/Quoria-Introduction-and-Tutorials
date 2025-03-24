@@ -10,7 +10,7 @@ st.write("QUORIA is an intelligent chatbot that helps users determine the value 
 st.image("https://via.placeholder.com/600x300", caption="Quoria Interface")
 
 st.header("How to Use Quoria")
-st.write("1. Start a conversation with Quoria.\n2. Enter Motorcycle Information: Users need to provide basic details about the used motorcycle, including: model, year of manufacture, kilometer, brand
+st.write("1. Start a conversation with Quoria. , \n2. Enter Motorcycle Information: Users need to provide basic details about the used motorcycle, including: model, year of manufacture, kilometer, brand,
 
          \n3.Receive the Price Estimate.")
 
